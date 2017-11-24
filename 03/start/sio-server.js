@@ -12,7 +12,7 @@ io.on("connection", function(socket) {
     	socket.broadcast.emit("message", message);
     });
 
-	socket.emit("message", "Welcome to Cyber Chat");
+	socket.emit("message", "Welcome -- Cyber Chat");
 
 });
 
